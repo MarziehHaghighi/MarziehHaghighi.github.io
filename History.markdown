@@ -1,261 +1,67 @@
-## HEAD
-
-### Documentation
-
-  * Forward port v2.5.1 release (#399)
-  * Docs: remove Google+ (#373)
-  * Update README section on adding favicons to site (#438)
-  * Fix custom-styles.scss name in README (#610)
-  * Improve the msg to enable disqus in README (#627)
-  * Make docs consistent with code (#657)
-  * Highlight that the base branch is v3 (#719)
-
-### Minor Enhancements
-
-  * Add Keybase to social links (#400)
-  * Solarized skins (#404)
-  * Add a placeholder of favicons (#433)
-  * fix: make page.list_title optional (#303)
-  * Add stackoverflow to social media list (#443)
-  * Add social support for dev.to (#410)
-  * Add GitLab to social (#352)
-  * Support mutiple authors on post layout (#348)
-  * Re-implement site footer markup and styles (#448)
-  * Support pagination through posts in home layout (#450)
-  * Show the last modified date of posts (#432)
-  * Set margins of hr to improve readability (#461)
-  * Export a variable to let users to custom the font family of code (#462)
-  * Set margin-bottom of pagination (#458)
-  * Adjust margins of headings to make sections clear (#467)
-  * Rename favicons.html to custom-head.html (#468)
-  * Remove RSS icon from the social media list (#470)
-  * Improve the readablility of blockquotes (#481)
-  * Extract more color rules into skins (#452)
-  * Introduce &#34;Dark Minima&#34; skin (#335)
-  * Reduce spacing in the three largest headers (#538)
-  * Add `auto` skin which honors the `prefers-color-scheme` media query (#634)
-  * Add google scholar. (#673)
-
-### Major Enhancements
+## Projects
 
-  * Allow skins to be defined and customized easily (#336)
-  * Drop support for scalar &#39;author&#39; configuration (#384)
-  * Place skins in `minima/skins` to clarify purpose (#479)
-  * Add adaptive skin: `solarized` (#594)
-  * Generate social iconsheet during build (#686)
-  * Rename `default` layout to `base` (#690)
 
-### Bug Fixes
 
-  * Add missing rel=me attributes to social links (#386)
-  * Set the border radius of highlight (#426)
-  * Removed unnecessary whitespace-controls (#390)
-  * fix: overflow auto for tables (#296)
-  *  Add `overflow-wrap: break-word` to body tag (#321)
-  * Use &#34;rem&#34; unit in relative-font-size mixin (#436)
-  * Assign static value to variable outside forloop (#437)
-  * Add font-size styles for elements h5 and h6 (#441)
-  * Stop prefixing CSS calc with `-webkit-` (#445)
-  * Improve readability of post titles with diacritics (#449)
-  * Fix a bug of incorrect parsing of page.modified_date (#455)
-  * Specify the font size of the root element (#485)
-  * Fix script used for Google Analytics (#596)
-  * Open social links in new tabs (#625)
-  * change base-font-family sequence (#654)
-  * Fix responsiveness of social SVG sprites (#677)
-  * Improve &#34;Subscribe&#34; link in footer (#698)
-  * Fix deprecation warnings from Dart Sass (#700)
-  * Fix reference to base layout in `404.html` (#713)
+### Recent Projects:
 
-### Development Fixes
+> Identifying and targeting signatures of psychiatric diseases: 
 
-  * Ignore .jekyll-cache (#439)
-  * Clean up and optimize .gitignore (#475)
-  * [chore] Normalize Travis CI builds (#480)
-  * chore(deps): bump Ruby version (#510)
-  * Conditionally load GFM-parser gem in CI builds (#535)
-  * Improve CI workflow configuration (#609)
-  * Migrate from TravisCI to GitHub Actions (#633)
-  * Build and deploy demo site via GH Action workflow (#636)
-  * Improve readability of config file (#703)
-  * Trigger demo-site build manually (#714)
+We developed a high-throughput assay system for identifying candidate small molecules for psychiatric disease. Mitochondrial abnormalities in patients with psychiatric illness have been reported in the literature through genetic, brain imaging, and peripheral cell studies. Using high-content microscopy imaging and machine learning, we identified skin fibroblasts cellular fingerprints of disease based on structural changes in mitochondria among patients with four different psychiatric conditions: schizophrenia, schizoaffective disorder, bipolar disorder, and major depression. Taking the differential mitochondrial structure fingerprints among the groups of patients, we searched for possible therapeutics by mining existing image datasets of cell samples treated with tens of thousands of small molecules. We are currently collaborating with NIH NCATS to run experiments to validate this assay system and then screen to identify novel candidate compounds targeting these diseases.
 
-## 2.5.1
+	*In preparation for submission*
 
-### Minor Enhancements
+🤖: In collaboration with NIH NCATS, my colleagues and I developed a high-throughput assay system for identifying candidate small molecules for psychiatric disease. Our machine learning-based approach analyzed high-content microscopy imaging and identified cellular fingerprints of disease based on mitochondrial structural changes among patients with four different psychiatric conditions. We continue to work with NIH NCATS to run experiments to validate this assay system and then screen to identify novel candidate compounds targeting these diseases.
 
-  * Allow use and testing with Jekyll 4.x (#398)
+> Protein localization of rare disease variants: 
 
-### Bug Fixes
+Systematic characterization
+In collaboration with Taipale lab  (University of Toronto), we systematically characterize the protein localization of disease variants by high-content microscopy. The Taipale lab had generated a catalog of types of mislocalization, scoring images by eye. However, we improved the characterization of the alleles with an advanced, automated morphological profiling approach. We tapped into the potential of using the entire spectrum of morphological measurements for detecting mutant phenotypes, instead of focusing on localization alone.
+Link to github repo
+Link to the paper.
 
-  * Footer overlapping issue (Support Microsoft Explorer 11) (#248)
-  * Update multiline config comment. (#346)
 
-### Development Fixes
 
-  * remove deprecated `sudo: false` in .travis.yml (#347)
+The path for drug discovery
+The path for a virtual drug screen in this project is not straightforward. In this project, we don't have access to a compound dataset of protein localizations to use as a reference for a virtual drug screen, and carrying out hundreds of individual drug screens is impractical due to the cost. We are facilitating a huge screen of compounds, however, by taking advantage of the pooled optical profiling strategy developed by Blainey lab at the Broad Institute. By pooled optical screens, we can test thousands of drugs against hundreds of barcoded disease-associated phenotypes in a single reasonably sized experiment, which is currently in the pilot stage.
 
-## 2.5.0
 
-### Bug Fixes
 
-  * Add `jekyll-feed` plugin in config (#228)
+> Decoding barcodes from In-Situ-Sequencing images
+We developed and introduced a framework which exploits a novel self-training learning strategy to address the barcode calling problem. The proposed self-training strategy can start from a small set of noisy labels and correct for noise overfitting by batch supervision. This work involved creative incorporation of a side prior knowledge about barcodes which is not in the regular form of annotations. Despite the focus of this work on the barcode calling problem, the introduced general learning strategy can be extended to use in other domains of data with contextual information. And crucially, this work will contribute to the efficiency and quality of the pooled drug screen experiments and data analysis.
 
-### Minor Enhancements
+Link to the github repo
+Link to the paper.
 
-  * Stick footer for short posts (#223)
-  * Consolidate trigger SVG paths (#148)
 
-## 2.4.1
+> Multi-modal data regimen coupled with Cell Painting
 
-### Bug Fixes
+ Commentary on the opportunities and benchmarking the problem at the population-level 
+We delve into the potential opportunities that a multi-modal gene expression and cell painting dataset provide. We define biological problems that use the shared and complementary information in these two data modalities, provide baseline analysis and evaluation metrics for multi-omic applications by using four genetic and compound datasets to test hypotheses of complementary or predictive nature of these two data types at the bulk level. 
 
-  * Reintroduce removed social includes for backwards compatibility (#217)
+Link to github repo.
+Link to the paper.
 
-## 2.4.0
 
-### Minor Enhancements
 
-  * Add better system fonts (#205)
-  * Remove whitespace due to Liquid tags in generated HTML (#202)
-  * Adding Mastodon to the social networks (#198)
 
-### Bug Fixes
+> Multi-domain representation learning 
+Learning representations directly from single cell images has received attention in recent years. Unbiased approaches suffer from noise and redundancy which prevent us from exploiting the full power of such data sources in morphological profiling and their emerging application in the drug discovery pipeline. Ideally, we want to learn representations that are unbiased from weak and erroneous human based annotations and at the same time disentangled from technical variations and experimental noise. We propose a novel multi-purpose framework (CellStyle) for learning representations directly from single cell images using various types of supervisory signals without compromising any unknown yet potentially useful properties of the data. The framework is based on an autoencoder that directly learns two orthogonal subspaces of data, called content and style. We define style and content in the context of various profiling tasks each using a unique source of supervisory signal. 
 
-  * social icons should resolve baseurl properly (#201)
-  * fix: styling main element in IE 11 (#199)
+*In progress* 
 
-### Documentation
 
-  * Improve thw wording in index.md (#175)
-  * Update config description comment (#203)
 
-## 2.3.0
 
-  * Add option to show excerpts on the homepage (#90)
-  * Handle RSS feed with jekyll-feed (#183)
-  * Test build with Ruby 2.4 on CI (#184)
-  * Document how to customize navigation links (#192)
 
-## 2.2.1
 
-  * Revert social_sites hash for retrocompatibility (#190)
+### Past Projects:
+> Automatic Renal Segmenter
+Kidney function evaluation using dynamic contrast-enhanced MRI (DCE-MRI) images could help in diagnosis and treatment of kidney diseases of children. Automatic segmentation of renal parenchyma is an important step in this process. In this paper, we propose a time and memory efficient fully automated segmentation method which achieves high segmentation accuracy with running time in the order of seconds in both normal kidneys and kidneys with hydronephrosis. The proposed method is based on a cascaded application of two 3D convolutional neural networks that employs spatial and temporal information at the same time in order to learn the tasks of localization and segmentation of kidneys, respectively. 
+	Link to the paper.
 
-## 2.2.0
 
-### Minor Enhancements
 
-  * handling content outside of posts (#88)
-  * Add default table styles (#144)
-  * Add `jekyll-seo-tag` dependency (#139)
-  * Add Microformats markup (#160)
-  * Add more social links (#141)
+> EEG-assisted Modulation of Sound Sources in the Auditory Scene
+Noninvasive auditory attention detection Brain Computer Interfaces (BCIs) could be useful for improved hearing aids in the future. EEG (electroencephalography) has been demonstrated to exhibit useful evidence regarding auditory attention in the presence of multiple competing speech waveforms. This work is a novel attempt to investigate the feasibility of online modulation of sound sources by probabilistic detection of auditory attention, using a noninvasive EEG-based brain computer interface. Proposed online system modulates the upcoming sound sources through gain adaptation which employs probabilistic decisions (soft decisions) from a classifier trained on offline calibration data. The goal of the online system is using the probabilistic information of the user's attention to enhance the concentration of the user on the target source in multi-speaker scenarios. Through 3 phases of study and experiments we have explored and improved the system by optimizing the model, features and the experimental designs. 
+	Links (1,2) to the papers.
 
-### Documentation
-
-  * Docs: clarification about page title (#142)
-
-## 2.1.1 / 2017-04-13
-
-### Minor Enhancements
-
-  * Close #55: Improve mobile user experience (#62)
-  * Remove incomplete status from spec summary (#63)
-  * Use date_format if set in configuration (#70)
-  * Corrected misspelled word (#72)
-  * Scale headings relative to base-font-size (#78)
-  * Remove 2.0 post-install message (#82)
-  * Fixes #115 - Only include the nav tag if there are pages to be displayed in the menu (#116)
-  * Fixes #80, #106. Make the hamburger work with pure CSS. (#111)
-  * add `header_pages` config to link only specific files in header (#52)
-  * More easily customizable CSS (#117)
-  * Use relative size for fonts and line-height (#103)
-  * Add 404 page from jekyll `master` (#121)
-
-### Development Fixes
-
-  * Remove duplicate .sass-cache  (#71)
-  * Demo minima on GitHub Pages (#76)
-  * Remove the Rakefile (#118)
-
-### Documentation
-
-  * Update README with theme content description (#91)
-  * Update default local URL (#120)
-
-## 2.1.0 / 2016-11-15
-
-### Minor Enhancements
-
-  * Update gemspec to require at least Jekyll 3.3 (#59)
-  * Use `absolute_url` filter for disqus (#66)
-  * replace `example/index.html` with `example/index.md` (#58)
-
-### Development Fixes
-
-  * Example should require Jekyll 3.3 (#61)
-
-## 2.0.0 / 2016-10-06
-
-### Minor Enhancements
-
-  * priority to site.url when site.github.url is available (#46)
-  * Move contents of the index.html page to the 'home' layout (#48)
-  * Use  new `absolute_url` and `relative_url` filters in minima (#57)
-
-### Development Fixes
-
-  * Use standardized tab size of 2 spaces (#44)
-
-### Major Enhancements
-
-  * move `css/` directory from jekyll into `assets/` (#43)
-
-### Bug Fixes
-
-  * Fix html proofer errors (#49)
-  * Update gem regex to include new `assets` directory (#54)
-
-## 1.2.0 / 2016-09-12
-
-### Minor Enhancements
-
-  * Look to site.url when available (#35)
-
-### Documentation
-
-  * Move instruction for CSS in install section (#37)
-
-## 1.1.0 / 2016-09-07
-
-### Major Enhancements
-
-  * Add support to Disqus (#21)
-  * Google analytics support (#26)
-  * Look for `site.github.url` if it exists (#25)
-
-### Minor Enhancements
-
-  * Fixed Flash Of Unstyled SVG (#12)
-  * Added "author" in footer instead of double title (#22)
-
-### Documentation
-
-  * Document how to link to the theme styles (#18)
-  * Update Example to resemble Default site (#24)
-
-### Development Enhancements
-
-  * Use upstream gemspec file matcher (#9)
-  * Fix gemspec regex (#31)
-  * Add Travis and a basic smoke test (#33)
-
-## 1.0.1 / 2016-07-28
-
-  * include `_layouts`, `_includes`, and `_sass` dir in gem (#6)
-
-## 1.0.0 / 2016-07-27
-
-  * default layout: html `lang` attribute should allow user customization (#3)
-  * Use `normalize_whitespace` filter for meta description (#4)
-  * Fix repo's URL in contributing (#5)
