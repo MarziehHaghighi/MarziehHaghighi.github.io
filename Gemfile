@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-gem "minima"
 source "https://rubygems.org"
 gemspec
 
