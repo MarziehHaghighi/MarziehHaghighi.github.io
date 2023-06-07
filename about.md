@@ -7,7 +7,7 @@ title: Reseach Projects
 ### Recent Projects:
 
 ---
-### Identifying and targeting signatures of psychiatric diseases: 
+### Identifying and targeting the cellular morphological impact of psychiatric diseases: 
 
 <div style="overflow: auto">
   <div style="float: right; margin-left: 10px">
