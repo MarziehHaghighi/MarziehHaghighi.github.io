@@ -6,9 +6,18 @@
 
 ## Identifying and targeting signatures of psychiatric diseases: 
 
-We developed a high-throughput assay system for identifying candidate small molecules for psychiatric disease. Mitochondrial abnormalities in patients with psychiatric illness have been reported in the literature through genetic, brain imaging, and peripheral cell studies. Using high-content microscopy imaging and machine learning, we identified skin fibroblasts cellular fingerprints of disease based on structural changes in mitochondria among patients with four different psychiatric conditions: schizophrenia, schizoaffective disorder, bipolar disorder, and major depression. Taking the differential mitochondrial structure fingerprints among the groups of patients, we searched for possible therapeutics by mining existing image datasets of cell samples treated with tens of thousands of small molecules. We are currently collaborating with NIH NCATS to run experiments to validate this assay system and then screen to identify novel candidate compounds targeting these diseases.
+<div style="overflow: auto">
+  <div style="float: right; margin-left: 10px">
+    <img src="assets/img/mito_p.png" alt="Alt Text" width="200" height="200">
+  </div>
+  <!-- <div style="text-align: justify"> -->
+We developed a high-throughput assay system for identifying candidate small molecules for psychiatric disease. Mitochondrial abnormalities in patients with psychiatric illness have been reported in the literature through genetic, brain imaging, and peripheral cell studies. Using high-content microscopy imaging and machine learning, we identified skin fibroblasts cellular fingerprints of disease based on structural changes in mitochondria among patients with four different psychiatric conditions: schizophrenia, schizoaffective disorder, bipolar disorder, and major depression. Taking the differential mitochondrial structure fingerprints among the groups of patients, we searched for possible therapeutics by mining existing image datasets of cell samples treated with tens of thousands of small molecules. We are currently collaborating with NIH NCATS to run experiments to validate this assay system and then screen to identify novel candidate compounds targeting these diseases.afasfdf
+  <!-- </div> -->
 
-*In preparation for submission*
+</div>
+
+
+*In preparation for sujgjggbmission*
 
 
 ## Protein localization of rare disease variants: 
