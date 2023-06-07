@@ -81,7 +81,15 @@ We developed and introduced a framework which exploits a novel self-training lea
 
 
 #### Multi-domain representation learning 
+
+
+
+  <div style="overflow: auto">
+  <div style="float: right; margin-left: 10px">
+    <img src="assets/img/rep_p.png" alt="Alt Text" width="300">
+  </div>
    Learning representations directly from single cell images has received attention in recent years. Unbiased approaches suffer from noise and redundancy which prevent us from exploiting the full power of such data sources in morphological profiling and their emerging application in the drug discovery pipeline. Ideally, we want to learn representations that are unbiased from weak and erroneous human based annotations and at the same time disentangled from technical variations and experimental noise. We propose a novel multi-purpose framework (CellStyle) for learning representations directly from single cell images using various types of supervisory signals without compromising any unknown yet potentially useful properties of the data. The framework is based on an autoencoder that directly learns two orthogonal subspaces of data, called content and style. We define style and content in the context of various profiling tasks each using a unique source of supervisory signal. 
+</div>
 
 *(In progress)* 
 
