@@ -32,8 +32,10 @@ In collaboration with Taipale lab  (University of Toronto), we systematically ch
 <!-- </div> -->
 </div>
 
-  - *Link to the github repo*
-  - *Link to the paper*
+
+  - Link to the <a href="https://www.biorxiv.org/content/10.1101/2023.09.05.556368v1.full.pdf"> preprint</a>
+  - Link to the  <a href="https://github.com/carpenter-singh-lab/2023_LacosteHaghighi_submitted">github repo</a>
+
 
 
 
@@ -43,7 +45,7 @@ In collaboration with Taipale lab  (University of Toronto), we systematically ch
   The path for a virtual drug screen in this project is not straightforward. In this project, we don't have access to a compound dataset of protein localizations to use as a reference for a virtual drug screen, and carrying out hundreds of individual drug screens is impractical due to the cost. We are facilitating a huge screen of compounds, however, by taking advantage of the pooled optical profiling strategy developed by Blainey lab at the Broad Institute. By pooled optical screens, we can test thousands of drugs against hundreds of barcoded disease-associated phenotypes in a single reasonably sized experiment, which is currently in the pilot stage.
 <!-- </div> -->
 
-*(In progress)*
+- *(In progress)*
        
 
 ---
@@ -58,12 +60,13 @@ We developed and introduced a framework which exploits a novel self-training lea
   <!-- </div> -->
 </div>
 
-  - *Link to the github repo*
-  - *Link to the paper*
+
+  - Link to the <a href="https://www.ijcai.org/proceedings/2023/0531.pdf"> paper (IJCAI 2023)</a>
+  - Link to the  <a href="https://github.com/carpenter-singh-lab/2023_Haghighi_IJCAI">github repo</a>
 
 ---
 ### Multi-modal data regimen coupled with Cell Painting
-#### $\circle$ Commentary on the opportunities and benchmarking the problem at the population-level 
+#### Formulating and benchmarking the problem at the population-level 
 <div style="overflow: auto">
   <div style="float: right; margin-left: 10px">
     <img src="assets/img/ros_p.png" alt="Alt Text" width="150">
@@ -73,16 +76,13 @@ We developed and introduced a framework which exploits a novel self-training lea
   <!-- </div> -->
 </div>
 
-  - *Link to the github repo*
-  - *Link to the paper*
-
+  - Link to the <a href="https://www.nature.com/articles/s41592-022-01667-0"> paper </a>
+  - Link to the  <a href="https://github.com/carpenter-singh-lab/2022_Haghighi_NatureMethods">github repo</a>
 
 
 
 
 #### Multi-domain representation learning 
-
-
 
   <div style="overflow: auto">
   <div style="float: right; margin-left: 10px">
@@ -91,7 +91,7 @@ We developed and introduced a framework which exploits a novel self-training lea
    Learning representations directly from single cell images has received attention in recent years. Unbiased approaches suffer from noise and redundancy which prevent us from exploiting the full power of such data sources in morphological profiling and their emerging application in the drug discovery pipeline. Ideally, we want to learn representations that are unbiased from weak and erroneous human based annotations and at the same time disentangled from technical variations and experimental noise. We propose a novel multi-purpose framework (CellStyle) for learning representations directly from single cell images using various types of supervisory signals without compromising any unknown yet potentially useful properties of the data. The framework is based on an autoencoder that directly learns two orthogonal subspaces of data, called content and style. We define style and content in the context of various profiling tasks each using a unique source of supervisory signal. 
 </div>
 
-*(In progress)* 
+- *(In progress)* 
 
 ---
 
@@ -108,7 +108,7 @@ We developed and introduced a framework which exploits a novel self-training lea
   Kidney function evaluation using dynamic contrast-enhanced MRI (DCE-MRI) images could help in diagnosis and treatment of kidney diseases of children. Automatic segmentation of renal parenchyma is an important step in this process. In this paper, we propose a time and memory efficient fully automated segmentation method which achieves high segmentation accuracy with running time in the order of seconds in both normal kidneys and kidneys with hydronephrosis. The proposed method is based on a cascaded application of two 3D convolutional neural networks that employs spatial and temporal information at the same time in order to learn the tasks of localization and segmentation of kidneys, respectively. 
 </div>
 
-  - *Link to the paper*
+  - Link to the <a href="https://ieeexplore.ieee.org/abstract/document/8363865"> paper </a>
 
 ---
 
@@ -122,6 +122,6 @@ We developed and introduced a framework which exploits a novel self-training lea
   <!-- </div> -->
 </div>
 
-  - *Links (1,2) to the papers*
+  - Link to the papers: <a href="https://www.sciencedirect.com/science/article/pii/S1746809417301702"> 1 </a> , <a href="https://ieeexplore.ieee.org/abstract/document/7940107"> 2 </a> , <a href="https://ieeexplore.ieee.org/abstract/document/7738810"> 3 </a>
 
 ---
